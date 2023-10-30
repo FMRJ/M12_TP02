@@ -1,0 +1,9 @@
+Fecha:  19:49, domingo, octubre 29, 2023
+Nombre del modelo:Pieza1
+Nombre de estudio:Transitorio(-Predeterminado-)
+Tipo de resultado: Térmico Térmico1
+Paso de tiempo: 240   tiempo: 12000 Segundos
+Tipo de resultado: Temp 
+
+Nodo   Valor (Kelvin)   X (mm)       Y (mm)       Z (mm)         
+9870   3.100e+002       0.00000000   0.00000000   300.00000000   
