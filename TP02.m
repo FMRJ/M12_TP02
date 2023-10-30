@@ -103,44 +103,44 @@ T50=flip(T50);
 T2000=flip(T2000);
 T6000=flip(T6000);
 
-% % T=50
-% figure(2)
-% movegui southwest
-% plot(X50*10^-3,T50,'g-')
-% hold on 
-% grid on
-% plot(Dx,T(:,25),'r-')
-% plot(Dx,Th(:,25),'b-')
-% title('Soluciones para t=50');
-% ylabel('Temperatura [K]');
-% xlabel('Longitud [m]');
-% legend('SolidWorks','Analítica','Diferencias finitas');
-% 
-% % T=2000
-% figure(3)
-% movegui center
-% plot(X50*10^-3,T2000,'g-')
-% hold on 
-% grid on
-% plot(Dx,T(:,1000),'r-')
-% plot(Dx,Th(:,1000),'b-')
-% title('Soluciones para t=2000');
-% ylabel('Temperatura [K]');
-% xlabel('Longitud [m]');
-% legend('SolidWorks','Analítica','Diferencias finitas');
-% 
-% % T=6000
-% figure(4)
-% movegui southeast
-% plot(X50*10^-3,T6000,'g-')
-% hold on 
-% grid on
-% plot(Dx,T(:,3000),'r-')
-% plot(Dx,Th(:,3000),'b-')
-% title('Soluciones para t=6000');
-% ylabel('Temperatura [K]');
-% xlabel('Longitud [m]');
-% legend('SolidWorks','Analítica','Diferencias finitas');
+% T=50
+figure(2)
+movegui southwest
+plot(X50*10^-3,T50,'g-')
+hold on 
+grid on
+plot(Dx,T(:,25),'r-')
+plot(Dx,Th(:,25),'b-')
+title('Soluciones para t=50');
+ylabel('Temperatura [K]');
+xlabel('Longitud [m]');
+legend('SolidWorks','Analítica','Diferencias finitas');
+
+% T=2000
+figure(3)
+movegui center
+plot(X50*10^-3,T2000,'g-')
+hold on 
+grid on
+plot(Dx,T(:,1000),'r-')
+plot(Dx,Th(:,1000),'b-')
+title('Soluciones para t=2000');
+ylabel('Temperatura [K]');
+xlabel('Longitud [m]');
+legend('SolidWorks','Analítica','Diferencias finitas');
+
+% T=6000
+figure(4)
+movegui southeast
+plot(X50*10^-3,T6000,'g-')
+hold on 
+grid on
+plot(Dx,T(:,3000),'r-')
+plot(Dx,Th(:,3000),'b-')
+title('Soluciones para t=6000');
+ylabel('Temperatura [K]');
+xlabel('Longitud [m]');
+legend('SolidWorks','Analítica','Diferencias finitas');
 
 %% Caso con Término fuente
 
